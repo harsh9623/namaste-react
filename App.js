@@ -86,7 +86,7 @@ function App() {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-// Steps to deploy this project on GitHub:
+// Steps to deploy this project on GitHub  :  
 
 // 1. Initialize a Git repository in your project folder:
 // Open a terminal in the project directory and run:
