@@ -4,7 +4,6 @@ node_modules/
 .parcel-cache/
 
 # Build output
-build/
 dist/
 
 # Logs
