@@ -84,5 +84,37 @@ function App() {
   );
 }
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
+// Steps to deploy this project on GitHub:
+
+// 1. Initialize a Git repository in your project folder:
+// Open a terminal in the project directory and run:
+// git init
+
+// 2. Create a `.gitignore` file to exclude unnecessary files:
+// Add the following to `.gitignore`:
+// node_modules/
+// dist/
+// .env
+
+// 3. Commit your project files:
+// Stage all files and commit them:
+// git add .
+// git commit -m "Initial commit"
+
+// 4. Create a new repository on GitHub:
+// Go to GitHub, create a new repository, and copy the repository URL.
+
+// 5. Add the GitHub repository as a remote:
+// Replace `<repository-url>` with your GitHub repository URL:
+// git remote add origin <repository-url>
+
+// 6. Push your code to GitHub:
+// Push the code to the main branch:
+// git branch -M main
+// git push -u origin main
+
+// 7. Enable GitHub Pages (optional for deployment):
+// Go to the repository settings on GitHub, scroll to "Pages," and select the branch (e.g., `main`) and folder (e.g., `/root`) to deploy.

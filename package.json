@@ -4,10 +4,10 @@
   "description": "learning react",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir docs",
+    "build": "parcel build index.html",
     "test": "jest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
