@@ -6,11 +6,11 @@
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir docs",
     "test": "jest",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
-    "url": "y"
+    "url": "https://github.com/harsh9623/namaste-react.git"
   },
   "author": "harshit",
   "license": "ISC",
