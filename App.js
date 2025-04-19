@@ -84,7 +84,6 @@ function App() {
   );
 }
 
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
 // Steps to deploy this project on GitHub:
